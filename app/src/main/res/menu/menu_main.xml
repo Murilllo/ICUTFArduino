@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_main_connectBluetooth"
+        android:icon="@drawable/ic_bluetooth_white_24dp"
+        android:title="@string/menu_main_connectBluetooth"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/menu_main_disconnectBluetooth"
+        android:icon="@drawable/ic_bluetooth_connected_white_24dp"
+        android:title="@string/menu_main_disconnectBluetooth"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/menu_main_clearMonitor"
+        android:icon="@drawable/ic_web_asset_white_24dp"
+        android:title="@string/menu_main_clearSerialMonitor"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/menu_main_exportMonitor"
+        android:icon="@drawable/ic_insert_drive_file_white_24dp"
+        android:title="@string/menu_main_exportMonitor"
+        app:showAsAction="ifRoom"
+    />
+
+
+
+    <item
+        android:id="@+id/menu_main_settings"
+        android:title="@string/menu_main_settings"
+        app:showAsAction="never"
+        />
+
+</menu>

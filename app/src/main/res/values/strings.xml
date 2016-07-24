@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">UTFArduino</string>
+    <string name="activity_main_serial_edittext_hint">Serial string&#8230;</string>
+    <string name="activity_folder_chooser_title">Pick a folder</string>
+    <string name="activity_folder_chooser_no_storage_available_msg">Cannot open storage</string>
+    <string name="activity_folder_chooser_provide_file_name">Provide a file name</string>
+
+    <string name="dialog_fragment_create_directory_title">New folder name</string>
+    <string name="dialog_fragment_create_directory_positive_button">CREATE</string>
+    <string name="dialog_fragment_create_directory_negative_button">CANCEL</string>
+    <string name="dialog_fragment_create_directory_provide_directory_name">Provide a folder name</string>
+    <string name="dialog_fragment_create_directory_folder_created">Folder created</string>
+
+    <string name="dialog_fragment_bluetooth_devices_title">Select a device</string>
+    <string name="dialog_fragment_bluetooth_devices_positive_button">SCAN</string>
+    <string name="dialog_fragment_bluetooth_devices_positive_button_stop_scanning">STOP</string>
+    <string name="dialog_fragment_bluetooth_devices_negative_button">CANCEL</string>
+    <string name="dialog_fragment_bluetooth_devices_list_row_title_paired">Paired devices</string>
+    <string name="dialog_fragment_bluetooth_devices_list_row_title_nearby">Available devices</string>
+
+    <string name="dialog_export_terminal_stream_title">Provide a file name</string>
+    <string name="dialog_export_terminal_stream_button_positive">EXPORT</string>
+    <string name="dialog_export_terminal_stream_button_negative">CANCEL</string>
+    <string name="dialog_export_terminal_stream_edittext_hint">FileName.extension</string>
+    <string name="dialog_export_terminal_stream_message_provide_file_name">Provide a file name</string>
+
+
+    <string name="description_button_sendSerial">Send serial</string>
+
+    <string name="menu_main_settings">Settings</string>
+    <string name="menu_main_clearSerialMonitor">Clear Terminal</string>
+    <string name="menu_main_exportMonitor">Export Terminal</string>
+    <string name="menu_main_connectBluetooth">Connect to device</string>
+    <string name="menu_main_disconnectBluetooth">Disconnect</string>
+    <string name="menu_folder_chooser_activity_new_folder">New folder</string>
+
+    <string name="description_imgview_folder">Folder</string>
+    <string name="content_save_button">Save</string>
+
+    <string name="bluetooth_connection_failed">Failed to connect</string>
+    <string name="bluetooth_connection_success">Connected</string>
+    <string name="bluetooth_connection_closed">Disconnected</string>
+    <string name="bluetooth_connection_connecting">Connecting&#8230;</string>
+
+    <string name="file_exported">Exported in </string>
+    <string name="file_to_export_exists">File already exists</string>
+    <string name="file_export_failed">Failed to export</string>
+    <string name="file_export_nothing">Nothing to export</string>
+    <string name="file_export_not_enough_space">Available memory is not enough</string>
+
+</resources>

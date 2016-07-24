@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <!-- https://www.google.com/design/spec/style/color.html#color-text-background-colors -->
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="windowBg">#303030</color>
+    <color name="edittextWhiteBackground">#FFFFFF</color>
+    <color name="foregroundWindowBg">#424242</color>
+
+    <color name="primaryText">#FFFFFF</color>
+    <color name="secondaryText">#B2FFFFFF</color> <!-- 72% @color/primaryText-->
+    <color name="disabledTextHintAndIcons">#7FFFFFFF</color>
+
+    <color name="primaryTextLight">#D1000000</color> <!-- 82% -->
+    <color name="secondaryTextLight">#8A000000</color> <!-- 54% @color/primaryTextLight-->
+    <color name="disabledTextHintAndIconsLight">#61000000</color> <!-- 38% @color/primaryTextLight-->
+
+</resources>

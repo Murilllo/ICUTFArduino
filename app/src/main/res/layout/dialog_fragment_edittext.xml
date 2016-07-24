@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?dialogPreferredPadding"
+    android:paddingRight="?dialogPreferredPadding"
+    android:paddingLeft="?dialogPreferredPadding">
+
+    <EditText
+        android:id="@+id/dialog_fragment_edittext_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"/> <!-- 20 is the max num of characters for this edittext -->
+
+</LinearLayout>

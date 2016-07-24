@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_serial_stream_root"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/fragment_serial_stream_connecting_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/fragment_serial_stream_edittext_serial"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/fragment_serial_stream_connecting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bluetooth_connection_connecting"
+            android:textColor="@color/primaryText"
+            android:layout_centerInParent="true"/>
+
+        <ProgressBar
+            android:indeterminateTintMode="src_in"
+            android:indeterminateTint="@color/primaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/fragment_serial_stream_connecting_text"
+            android:layout_alignBottom="@+id/fragment_serial_stream_connecting_text"
+            android:layout_toLeftOf="@+id/fragment_serial_stream_connecting_text"
+            android:layout_toStartOf="@+id/fragment_serial_stream_connecting_text" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_serial_stream_recyclerview_serialMonitor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/fragment_serial_stream_button_sendSerial"
+        android:scrollbars="vertical"/>
+
+    <EditText
+        style="@style/EditTextStyle"
+        android:id="@+id/fragment_serial_stream_edittext_serial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/fragment_serial_stream_button_sendSerial"
+        android:layout_toLeftOf="@+id/fragment_serial_stream_button_sendSerial"
+        android:layout_alignTop="@+id/fragment_serial_stream_button_sendSerial"
+        android:layout_alignBottom="@+id/fragment_serial_stream_button_sendSerial"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:inputType="text"
+        android:hint="@string/activity_main_serial_edittext_hint"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <android.support.design.widget.FloatingActionButton
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/fragment_serial_stream_button_sendSerial"
+        android:layout_width="@dimen/button_send_size"
+        android:layout_height="@dimen/button_send_size"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:contentDescription="@string/description_button_sendSerial"
+        android:src="@drawable/ic_send_white_24dp"
+        android:clickable="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UTFArduino</string>
+    <string name="activity_folder_chooser_no_storage_available_msg">Armazenamento indisponível</string>
+    <string name="activity_folder_chooser_provide_file_name">Insira o nome da pasta</string>
+    <string name="activity_folder_chooser_title">Escolha uma pasta</string>
+    <string name="activity_main_serial_edittext_hint">Texto serial…</string>
+    <string name="bluetooth_connection_closed">Desconectado</string>
+    <string name="bluetooth_connection_connecting">Conectando…</string>
+    <string name="bluetooth_connection_failed">Falha ao conectar</string>
+    <string name="bluetooth_connection_success">Conectado</string>
+    <string name="content_save_button">Salvar</string>
+    <string name="description_button_sendSerial">Enviar texto serial</string>
+    <string name="description_imgview_folder">Pasta</string>
+    <string name="dialog_export_terminal_stream_button_negative">CANCELAR</string>
+    <string name="dialog_export_terminal_stream_button_positive">EXPORTAR</string>
+    <string name="dialog_export_terminal_stream_edittext_hint">NomeArquivo.Extenção</string>
+    <string name="dialog_export_terminal_stream_message_provide_file_name">Insira o nome do arquivo</string>
+    <string name="dialog_export_terminal_stream_title">Insira o nome do arquivo</string>
+    <string name="dialog_fragment_bluetooth_devices_list_row_title_nearby">Dispositivos disponíveis</string>
+    <string name="dialog_fragment_bluetooth_devices_list_row_title_paired">Dispositivos pareados</string>
+    <string name="dialog_fragment_bluetooth_devices_negative_button">CANCELAR</string>
+    <string name="dialog_fragment_bluetooth_devices_positive_button">ESCANEAR</string>
+    <string name="dialog_fragment_bluetooth_devices_positive_button_stop_scanning">PARAR</string>
+    <string name="dialog_fragment_bluetooth_devices_title">Selecione um dispositivo</string>
+    <string name="dialog_fragment_create_directory_folder_created">Pasta criada</string>
+    <string name="dialog_fragment_create_directory_negative_button">CANCELAR</string>
+    <string name="dialog_fragment_create_directory_positive_button">CRIAR</string>
+    <string name="dialog_fragment_create_directory_provide_directory_name">Insira o nome da pasta</string>
+    <string name="dialog_fragment_create_directory_title">Nome da nova pasta</string>
+    <string name="file_export_failed">Falha ao exportar </string>
+    <string name="file_export_not_enough_space">Memória disponível insuficiente</string>
+    <string name="file_export_nothing">Não há nada para exportar</string>
+    <string name="file_exported">Exportado em </string>
+    <string name="file_to_export_exists">Arquivo já existe</string>
+    <string name="menu_folder_chooser_activity_new_folder">Nova pasta</string>
+    <string name="menu_main_clearSerialMonitor">Limpar Terminal</string>
+    <string name="menu_main_connectBluetooth">Conectar a um dispositivo</string>
+    <string name="menu_main_disconnectBluetooth">Desconectar</string>
+    <string name="menu_main_exportMonitor">Exportar Terminal</string>
+    <string name="menu_main_settings">Cconfigurações</string>
+</resources>
