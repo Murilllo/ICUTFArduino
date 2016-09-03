@@ -197,6 +197,7 @@ public class SerialStreamFragment extends Fragment implements Button.OnClickList
                 break;
 
             case BluetoothCommunicator.ACTION_DEVICE_CONNECTED:
+                connectingInfoHolder.setVisibility(View.GONE);
                 Toast.makeText(getContext(), getResources().getString(R.string.bluetooth_connection_success), Toast.LENGTH_LONG).show();
                 deviceChooserDialogFragment.dismiss();
                 ((MainActivity) getActivity()).displayConnectedBluetoothMenuIcon();

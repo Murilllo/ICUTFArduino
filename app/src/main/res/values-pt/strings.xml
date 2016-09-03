@@ -14,7 +14,7 @@
     <string name="description_imgview_folder">Pasta</string>
     <string name="dialog_export_terminal_stream_button_negative">CANCELAR</string>
     <string name="dialog_export_terminal_stream_button_positive">EXPORTAR</string>
-    <string name="dialog_export_terminal_stream_edittext_hint">NomeArquivo.Extenção</string>
+    <string name="dialog_export_terminal_stream_edittext_hint">NomeArquivo.Extensão</string>
     <string name="dialog_export_terminal_stream_message_provide_file_name">Insira o nome do arquivo</string>
     <string name="dialog_export_terminal_stream_title">Insira o nome do arquivo</string>
     <string name="dialog_fragment_bluetooth_devices_list_row_title_nearby">Dispositivos disponíveis</string>
@@ -38,5 +38,5 @@
     <string name="menu_main_connectBluetooth">Conectar a um dispositivo</string>
     <string name="menu_main_disconnectBluetooth">Desconectar</string>
     <string name="menu_main_exportMonitor">Exportar Terminal</string>
-    <string name="menu_main_settings">Cconfigurações</string>
+    <string name="menu_main_settings">Configurações</string>
 </resources>

@@ -478,9 +478,14 @@ public class BluetoothCommunicator extends Communicator implements Connectable, 
         private InputStream inputStream;
         private OutputStream outputStream;
 
+        /**
+         * Bluetooth connections may block the UI thread
+         */
+        private volatile Thread thread;
+
         public ConnectThread(final BluetoothDevice device){
 
-            new Thread(new Runnable() { /* avoid main ui thread overhead */
+            thread = new Thread(new Runnable() {
                 @Override
                 public void run() {
 
@@ -498,14 +503,20 @@ public class BluetoothCommunicator extends Communicator implements Connectable, 
                     }
 
                 }
+            });
 
-            }).start();
-
+            thread.start();
 
         }
 
         @Override
         public void run(){
+
+            try {
+                thread.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
 
             int bytesAvailable;
             int delimiterIndex;
